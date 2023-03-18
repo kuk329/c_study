@@ -1,8 +1,11 @@
 # Ignore all
-*
+표준 입출력/*
 
 # Unignore all with extensions
-!*.*
-
+!표준 입출력/*.*
 # Unignore all dirs
+
 !*/.DS_Store
+
+
+DS_Store
