@@ -8,8 +8,9 @@ int main(void){
 
     printf("나이를 입력하세요 : ");
     int age=0;
-    scanf("%d",&age);
-    getchar(); 
+    scanf("%d",&age); 
+    // scanf("%d*c",&age); // getchar 대신 *c 도 가능. 
+    getchar();   // 버퍼에 남아있는 개행문자 제거. 윈도우에서는 fflush() 사용가능
     printf("이름을 입력하세요 : ");
     char szName[30]={0};
     gets(szName);
