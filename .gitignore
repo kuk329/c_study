@@ -1,8 +1,13 @@
 # Ignore all
 표준 입출력/*
+포인터/*
+algorithm/*
 
 # Unignore all with extensions
 !표준 입출력/*.*
+!포인터/*.*
+!algorithm/*.*
+
 # Unignore all dirs
 
 !*/.DS_Store
