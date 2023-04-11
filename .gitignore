@@ -2,11 +2,12 @@
 표준 입출력/*
 포인터/*
 algorithm/*
-
+함수/*
 # Unignore all with extensions
 !표준 입출력/*.*
 !포인터/*.*
 !algorithm/*.*
+!함수/*.*
 
 # Unignore all dirs
 
