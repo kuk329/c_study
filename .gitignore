@@ -3,11 +3,14 @@
 포인터/*
 algorithm/*
 함수/*
+구조체/*
+과제/*
 # Unignore all with extensions
 !표준 입출력/*.*
 !포인터/*.*
 !algorithm/*.*
 !함수/*.*
+!구조체/*.*
 
 # Unignore all dirs
 
