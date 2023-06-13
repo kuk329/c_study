@@ -1,34 +1,31 @@
 #include<stdio.h>
+#include<stdlib.h>
+#define max 6
+// mergeSort  분할 정복의 대표적인 알고리즘. (divide & conquer)
+// 중요 함수가 2개 각각 분할과 정복을 담당
 
+// conquer
+void merge(){
 
-
-void merge(int a[],int low, int mid, int high){
-    int 
 }
-void mergeSort(int a[], int low,int high){
 
-    int mid;
+// divide
+void mergeSort(int a[], int low, int high){
+
     if(low<high){
-        mid=(low+high)/2;
-        mergeSort(a,low,mid);
-        mergeSort(a,mid+1,high);
-        merge(a,low,mid,high);
+        
+
+    }else{
+        return;
     }
 
 }
 
-int main(){
-    int arr[6]={3,4,5,2,1,6};
-    int i;
-
-    // 합병 정렬
-    mergeSort(arr,0,len(arr)-1);
-
-    // 정렬 결과 출력
-    for(i=0; i<6; i++){
-        printf("%d ",arr[i]);
-    }
+int main(void)
+{
+    int a[max]={20,10,70,80,40,90};
 
 
-    return 0;
+
+
 }
